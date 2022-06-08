@@ -40,10 +40,7 @@ class _StopwatchState extends State<Stopwatch>
         child: LayoutBuilder(
           builder: (context, constraints) {
             final radius = constraints.maxWidth / 2;
-            return StopWatchRenderer(
-              elapsed: _elapsed,
-              radius: radius
-            );
+            return StopWatchRenderer(elapsed: _elapsed, radius: radius);
           },
         ),
       ),
