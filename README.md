@@ -1,9 +1,5 @@
 # Flutter Stopwatch App
 
-This folder contains the stopwatch app that is covered in section 2 of my [Flutter Animations Course](https://nnbd.me/fa).
+## Simple stopwatch flutter app to show how to deal with animations 
 
-*Note: each commit in this project corresponds to a specific lesson in the course.*
-
-*Note: This project uses Null Safety and requires Flutter 2.0 or above.*
-
-Refer to the main [README](/README.md) for more info.
+### The app still under development, I will finish it as possible as i can and i will provide the resources 
