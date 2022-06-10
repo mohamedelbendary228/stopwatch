@@ -39,6 +39,7 @@ class _StopwatchState extends State<Stopwatch>
         aspectRatio: 1.0,
         child: LayoutBuilder(
           builder: (context, constraints) {
+            print("width: ${constraints.maxWidth}");
             final radius = constraints.maxWidth / 2;
             return StopWatchRenderer(elapsed: _elapsed, radius: radius);
           },
