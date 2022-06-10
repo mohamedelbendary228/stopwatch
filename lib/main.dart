@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:provider/provider.dart';
+import 'package:stopwatch_flutter/provider/stop_watch_provider.dart';
 import 'package:stopwatch_flutter/ui/stopwatch.dart';
 
 void main() {
@@ -28,7 +30,9 @@ class MyHomePage extends StatelessWidget {
       value: SystemUiOverlayStyle.light,
       child: Scaffold(
         body: Center(
-          child: Stopwatch(),
+          child: ChangeNotifierProvider(
+            create: (context) => StopWatchProvider(),
+            child: Stopwatch()),
         ),
       ),
     );
